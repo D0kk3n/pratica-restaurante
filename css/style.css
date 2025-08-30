@@ -46,9 +46,16 @@ main {
 }
 
 footer {
-  background-color: gray;
+  background-color: rgb(204, 204, 204);
 }
 footer a {
   color: white;
 }
-
+footer img {
+  width: 250px;
+}
+footer ul {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  float: right;
+  margin-right: 2rem;
+}
