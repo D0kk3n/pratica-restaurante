@@ -1,11 +1,12 @@
-/* RESET */
+/* RESET */ 
+/*  (CASO PRECISE)
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+*/
 
-/* RESET */
 /* RESET */
 a, 
 a:hover,
@@ -26,16 +27,22 @@ header {
 
 nav {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+  float: left;
 }
 
 nav a {
   color: rgb(58, 58, 58);
+  
 }
 
 main {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: rgb(58, 58, 58);;
+  color: rgb(58, 58, 58);
+
+  border-left: 1px solid rgb(58, 58, 58);
+
+  overflow: scroll;
+  height: 700px;
 }
 
 footer {
@@ -44,7 +51,4 @@ footer {
 footer a {
   color: white;
 }
-
-
-
 
