@@ -107,9 +107,11 @@ main .voltar-inicio-main {
 
 footer {
   margin-top: 50px;
-  left: 0;
   position: absolute;
-  width: 100%;
+
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
 
   background-color: rgb(204, 204, 204);
 }
