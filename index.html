@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="style.css">
   <title>Restaurante</title>
 </head>
 <body>
@@ -12,9 +13,8 @@
     <h1>Nuestro Restó</h1>
     <h2>Carta</h2>
   </header>
-  
-  <hr>
 
+<div class="container">
   <nav>
     <ul>
       <li><a href="#entradas">Entradas</a> </li>
@@ -32,7 +32,7 @@
   
   <main>
     <section id="entradas" class="section">
-      <h2>Entradas</h2>
+      <h2 class="section-title">Entradas</h2>
 
       <img src="./img/foto-entradas.jpg" alt="Foto Prato Entradas">
 
@@ -71,7 +71,7 @@
     </section>
 
     <section id="pratos-principais" class="section">
-      <h2>Pratos principais</h2>
+      <h2 class="section-title">Pratos principais</h2>
 
       <img src="./img/foto-ppal.jpg" alt="Foto Pratos Principais">
 
@@ -110,7 +110,7 @@
     </section>
 
     <section id="sobremesas" class="section">
-      <h2>Sobremesas</h2>
+      <h2 class="section-title">Sobremesas</h2>
 
       <img src="./img/foto-sobremesa.jpg" alt="Foto Prato Sobremesa">
 
@@ -125,19 +125,23 @@
       
       <h3>Salada de camarão rei</h3>
       <p>camarões refogados, trabalhado, cebolinha com molho de laranja, vinagre e azeite.</p>
+
+      <div class="voltar-inicio-main">
+        <a href="#entradas">Voltar ao Topo</a>
+      </div>
   </main>
 
-  <footer>
+  <footer id="rodape">
     <img src="./img/logo-web.png" alt="Logo Santa Maria Bar">
 
     <ul>
-      <li><a href="">Contato</a></li>
-      <li><a href="">Facebook</a></li>
-      <li><a href="">Twitter</a></li>
-      <li><a href="">Instagram</a></li>
+      <li><a href="#rodape">Contato</a></li>
+      <li><a href="#rodape">Facebook</a></li>
+      <li><a href="#rodape">Twitter</a></li>
+      <li><a href="#rodape">Instagram</a></li>
     </ul>
-
   </footer>
 
 </body>
+</div>
 </html>
